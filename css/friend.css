@@ -2,34 +2,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 300px;
 }
 
 .friend .friend__avatar{
     width: 50px;
     border-radius: 38%;
-}f
+}
 
 .friend__avatar.g-avatar{
-    width: 100px;
-    
+    width: 70px;
 }
 .friend__avatar.m-avatar{
     width: 60px;
- 
 }
 
 .friend .friend__column{
-  
+    display: flex;
+    align-items: center;
 }
 .friend__column .friend__avatar{
-
-    margin-top:250px;
+    margin-right: 15px;
 }
 
 .friend__content .friend__name{
 
-     
+        display: block;
+        font-weight: 600;
+        margin-bottom: 5px;
 }
 
 .friend__content .friend__status,
@@ -49,7 +48,6 @@
 
 .friend__content .friend__status{
     font-size: 12px;
-    
 }
 
 .friend .friend__now-listening{
